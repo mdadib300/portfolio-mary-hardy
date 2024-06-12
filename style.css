@@ -2,24 +2,41 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+header{
+    background-color: #FFF8F3;
+}
+
 a{
     text-decoration: none;
     color: black;
+    margin-right: 50px;
 }
 
-button{
+.primary-btn{
     background-color: #FD6E0A;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 18px 35px;
     font-size: medium;
+    font-weight: 700;
+}
+
+.secondary-btn{
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 17px 34px;
+    font-size: medium;
+    font-weight: 700;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
 }
 
 nav > ul{
@@ -29,7 +46,6 @@ nav > ul{
 
 nav li {
     list-style: none;
-    margin-right: 50px;
 }
 
 #nav-title{
@@ -39,4 +55,16 @@ nav li {
 
 .text-primary{
     color: #FD6E0A;
+}
+
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro-pic {
+    height: 600px;
+    width: 500px;
 }
