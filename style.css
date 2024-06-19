@@ -73,6 +73,17 @@ nav li {
 .banner-btns{
     margin-top: 40px;
 }
+.about{
+    margin: 100px 150px;
+    background-color: #FFF8F3;
+    padding: 50px;
+}
 
-.pro-pic {
+.about-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-center{
+    text-align: center;
 }
