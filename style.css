@@ -103,3 +103,16 @@ nav li {
 .text-center{
     text-align: center;
 }
+
+.summary{
+    margin: 0 150px 100px 150px;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education {
+    margin-right: 50px;
+}
