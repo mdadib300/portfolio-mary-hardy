@@ -116,3 +116,10 @@ nav li {
 .education {
     margin-right: 50px;
 }
+
+.center-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
