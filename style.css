@@ -76,12 +76,28 @@ nav li {
 .about{
     margin: 100px 150px;
     background-color: #FFF8F3;
-    padding: 50px;
+    padding: 120px 50px;
 }
 
 .about-details{
     display: flex;
     justify-content: space-evenly;
+}
+
+.what-i-do{
+    margin: 0 150px 100px 150px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.skill-card{
+    padding: 15px;
+    margin: 0 15px;
+    box-shadow: 5px 5px 5px rgb(166, 169, 170);
 }
 
 .text-center{
