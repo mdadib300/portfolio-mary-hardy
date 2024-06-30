@@ -123,3 +123,16 @@ nav li {
     align-items: center;
     margin: 50px 0;
 }
+
+footer{
+    background-color: #FFF8F3;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 10px 20px;
+    display: block;
+    margin-bottom: 20px;
+}
